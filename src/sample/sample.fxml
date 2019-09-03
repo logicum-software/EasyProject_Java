@@ -5,9 +5,10 @@
 <?import javafx.scene.control.ListView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/11.0.1">
-      <Button layoutX="14.0" layoutY="45.0" mnemonicParsing="false" text="Neues Project" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="45.0" />
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="ButtonNewProject" layoutX="14.0" layoutY="45.0" mnemonicParsing="false" onAction="#handleButtonActionNewProject" text="Neues Projekt" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="45.0" />
       <ListView layoutX="112.0" layoutY="45.0" prefHeight="241.0" prefWidth="317.0" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="45.0" />
       <Label layoutX="119.0" layoutY="28.0" text="Projekte" />
+   </children>
 </AnchorPane>
