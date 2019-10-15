@@ -20,6 +20,5 @@ public class NewProject {
         primaryStage.setTitle("Neues Projekt");
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
-
     }
 }
